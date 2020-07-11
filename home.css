@@ -1,0 +1,27 @@
+@charset 'UTH-8';
+body{
+    background-image: url('gretta.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+nav#menu ul{
+    font-family: helvetica;
+    color: #b7410e;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70px;
+    left: -25px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 1px;
+}
+h1#nome{
+    text-transform: uppercase;
+    position: absolute;
+    top: -30px;
+    font-family: helvetica;
+    font-size: 60px;
+    color: #b7410e
+}

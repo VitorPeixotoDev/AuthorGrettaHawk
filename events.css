@@ -1,0 +1,112 @@
+@charset 'UTH-8';
+body{
+    background-image: url('gretta des.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+nav#menu ul{
+    font-family: helvetica;
+    color: #b7410e;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70px;
+    left: -25px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 1px;
+}
+h1#local{
+    left: 1120px;
+    text-transform: uppercase;
+    position: absolute;
+    top: -30px;
+    font-family: helvetica;
+    font-size: 60px;
+    color: #b7410e
+}
+h1#nome{
+    text-transform: uppercase;
+    position: absolute;
+    top: -30px;
+    font-family: helvetica;
+    font-size: 60px;
+    color: #b7410e
+}
+nav#fotos{
+    left: 300px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    font-family: helvetica;
+    font-size: 20pt;
+    color: #b7410e;
+}
+ul#al-fotos {
+    width: 700px;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#al-fotos li{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    border: outset 8px white;
+    -webkit-transition: all .4s ease-in;
+}
+ul#al-fotos li#foto001{
+    background: url('galeria01.jpg') no-repeat;
+    background-position: 50% 50%;
+    
+}
+ul#al-fotos li#foto002{
+    background: url('galeria02.jpg') no-repeat;
+    background-position: 50% 50%;
+}
+ul#al-fotos li#foto003{
+    background: url('galeria03.jpg') no-repeat;
+    background-position: 50% 50%;
+}
+ul#al-fotos li#foto004{
+    background: url('galeria04.jpg') no-repeat;
+    background-position: 50% 50%;
+}
+ul#al-fotos li#foto005{
+    background: url('galeria05.jpg') no-repeat;
+    background-position: 50% 50%;
+}
+ul#al-fotos li#foto006{
+    background: url('galeria06.jpg') no-repeat;
+    background-position: 50% 50%;
+}
+ul#al-fotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow: black;
+    background-color: rgba(183, 65, 14, .6);
+    font-size: 10pt;
+    line-height: 300px;
+    padding: 5px;
+}
+ul#al-fotos li:hover span{
+    opacity: 1;
+}
+ul#al-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+

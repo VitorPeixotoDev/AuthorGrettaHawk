@@ -1,0 +1,61 @@
+@charset 'UTH-8';
+body{
+    background-image: url('gretta des.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+nav#menu ul{
+    font-family: helvetica;
+    color: #b7410e;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70px;
+    left: -25px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 1px;
+}
+h1#local{
+    left: 1120px;
+    text-transform: uppercase;
+    position: absolute;
+    top: -30px;
+    font-family: helvetica;
+    font-size: 60px;
+    color: #b7410e
+}
+h1#nome{
+    text-transform: uppercase;
+    position: absolute;
+    top: -30px;
+    font-family: helvetica;
+    font-size: 60px;
+    color: #b7410e
+}
+figure.foto-leg img {
+    width: 247px;
+    height: 384px;
+    position: relative;
+    margin-left: 28px;
+    padding: 5px;
+    top: 180px;
+    border: outset 8px white;
+}
+figure.foto-leg figcaption {
+    margin-left: 50px;
+    opacity: 0;
+    position: relative;
+    top: -150px;
+    height: 10%;
+    width: 20%;
+    background-color: rgba(183, 65, 14, 0.4);
+    font-size: 15pt;
+    box-sizing: border-box;
+
+}
+figure.foto-leg :hover figcaption{
+    opacity: 1;
+}
+
