@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face{
+    font-family: grettaName;
+    src: url('../fonts/MontereyFLF.ttf');
+}
+.nomeGretta{
+    font-family: grettaName;
+    font-size: 50px;
+    color:red;
+    position: absolute;
+    margin-top: 0%;
+   
+}  
+body{
+    background-color: black;
+}    
+header{
+    background-image: url('../images/fundoBarra2.jpg');
+    height: 52px;
+    
+}
+.inner-width{
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: auto;
+    
+}
+.navegation-menu{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+   
+}
+.navegation-menu a{
+    font-family: grettaName;
+    margin-left: 10px;
+    color:white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+}
+.navegation-menu a:hover{
+    background: black ;
+    color: red;
+    /*transform: scale(1.1);*/
+}
+.navegation-menu i{
+    margin-right: 8px;
+    font-size: 16px; 
+}
+.home{
+    color: #ff6b6b;
+}
+.about{
+    color: #baff6b;
+}
+.works{
+    color: #6bffa1;
+}
+.team{
+    color: #a46bff;
+}
+.contact{
+    color: #ff6bab;
+}
+.menu-toggle-btn{
+    float: right;
+    height: 90px;
+    line-height: 90px !important;
+    color: #fff;
+    font-size: 26px;
+    display: none !important;
+}
+@media screen and (max-width:700px){
+    .menu-toggle-btn{
+        display: block !important;
+    }
+    .navegation-menu{
+        position: fixed;
+        width: 100%;
+        max-width: 400px;
+        background: #172b4d;
+        top: 90px;
+        right:0;
+        display: none;
+        padding: 20px 40px;
+        box-sizing: border-box;
+    }
+    .navegation-menu::before{
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #172b4d;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+    }
+    .navegation-menu a{
+        display: block;
+        margin: 10px 0;
+    }
+    .navegation-menu.active{
+        display: block;
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.edimage{
+    height: 300px;
+}
+.grettaimage{
+    height: 600px;
+    margin-left: 16%;
+}
+.blogs{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+}
+.blog{
+    overflow: hidden;
+    position: relative;
+    height: 50%;
+    cursor: pointer;
+}
+.blog img{
+    width: 120%;
+    height: 120%;
+}
+.blog-description{
+    position: absolute;
+    bottom: -40px;
+    background: #333333ca;
+    width: 100%;
+    padding: 40px;
+    transition: .3s linear;
+}
+.blog:hover .blog-description{
+    bottom: 0;
+}
+.categorie{
+    display: inline-block;
+    color: #e77f67;
+    font-size: 18px;
+    position: relative;
+    padding: 0 22px;
+}
+.categorie::before{
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    background: #e77f67;
+    left: 0;
+    top: 13px;
+}
+.categorie::after{
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    background: #e77f67;
+    right: 0;
+    top: 13px;
+}
+.title{
+    color:#fff;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.date{
+    font-style: italic;
+    color: #e77f67;
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    color: #e77f67;
+    text-decoration: none;
+    border: 1px solid #e77f67;
+    padding: 6px 20px;
+    opacity: 0;
+    transition: .3s linear;
+}
+.blog:hover .btn{
+    opacity: 1;
+}
+.btn:hover{
+    color:#fff;
+    background: #e77f67;
+}
+.owl-stage{
+    display: flex !important;
+}
